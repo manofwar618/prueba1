@@ -20489,5 +20489,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Touch.prototype.exps.X,
 	cr.system_object.prototype.cnds.Compare,
-	cr.plugins_.Touch.prototype.cnds.OnTouchEnd
+	cr.plugins_.Touch.prototype.cnds.OnTouchEnd,
+	cr.system_object.prototype.cnds.EveryTick,
+	cr.plugins_.Text.prototype.acts.SetText
 ];};
