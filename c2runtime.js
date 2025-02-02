@@ -20205,5 +20205,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.CompareY,
 	cr.system_object.prototype.exps.layoutheight,
 	cr.system_object.prototype.acts.RestartLayout,
-	cr.plugins_.Touch.prototype.cnds.OnHoldGesture
+	cr.plugins_.Touch.prototype.cnds.OnHoldGesture,
+	cr.plugins_.Touch.prototype.cnds.IsInTouch
 ];};
